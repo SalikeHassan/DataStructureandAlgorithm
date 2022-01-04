@@ -82,19 +82,83 @@ namespace SingleLinkList
         }
     }
 
+    public class SumLinkList
+    {
+        public void SumOfTwoLinkList(LinkList list1, LinkList list2)
+        {
+            var sumLinkList = new LinkList();
+            var carry = 0;
+            while (list1.head != null || list2.head != null)
+            {
+                var sum = carry;
+
+                if (list1.head != null)
+                {
+                    sum += list1.head.data;
+                    list1.head = list1.head.next;
+                }
+
+                if (list2.head != null)
+                {
+                    sum += list2.head.data;
+                    list2.head = list2.head.next;
+                }
+                var data = sum % 10;
+                sumLinkList.AddAtEnd(data);
+                carry = sum / 10;
+            }
+
+            if (carry > 0)
+            {
+                sumLinkList.AddAtEnd(carry);
+            }
+
+            sumLinkList.DisplayData();
+        }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
         {
-            var linkList = new LinkList();
-            linkList.AddAtEnd(4);
-            linkList.AddAtEnd(5);
-            linkList.AddAtEnd(1);
-            linkList.AddAtEnd(9);
+            var linkList1 = new LinkList();
 
-            Console.WriteLine(linkList.DeleteNodeForProvidedKey(100));
+            //Test case 1
+            //linkList1.AddAtEnd(2);
+            //linkList1.AddAtEnd(4);
+            //linkList1.AddAtEnd(3);
 
-            linkList.DisplayData();
+            //Test case 2
+            linkList1.AddAtEnd(9);
+            linkList1.AddAtEnd(9);
+            linkList1.AddAtEnd(9);
+            linkList1.AddAtEnd(9);
+            linkList1.AddAtEnd(9);
+            linkList1.AddAtEnd(9);
+            linkList1.AddAtEnd(9);
+
+
+
+
+            var linkList2 = new LinkList();
+
+            //Test case 1
+            //linkList2.AddAtEnd(5);
+            //linkList2.AddAtEnd(6);
+            //linkList2.AddAtEnd(4);
+
+            //Test case 2
+            linkList2.AddAtEnd(9);
+            linkList2.AddAtEnd(9);
+            linkList2.AddAtEnd(9);
+            linkList2.AddAtEnd(9);
+
+
+
+            //Console.WriteLine(linkList1.DeleteNodeForProvidedKey(100));
+            new SumLinkList().SumOfTwoLinkList(linkList1, linkList2);
+
+            //  linkList1.DisplayData();
         }
     }
 }
