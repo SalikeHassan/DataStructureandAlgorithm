@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleLinkList", "source\SingleLinkList\SingleLinkList\SingleLinkList.csproj", "{7988E8B6-E13B-44FC-BEA2-F62A59FD8795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleLinkList", "source\SingleLinkList\SingleLinkList\SingleLinkList.csproj", "{7988E8B6-E13B-44FC-BEA2-F62A59FD8795}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTree", "source\BinarySearchTree\BinarySearchTree.csproj", "{F06836B9-891F-4481-9AC8-A4FC2125E2ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinChange", "source\DynamicProgramming\CoinChange\CoinChange.csproj", "{D8346FA9-3C81-42B8-B038-A475805D3BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPHouseRoberProblem", "source\DPHouseRoberProblem\DPHouseRoberProblem.csproj", "{87A60870-7084-4DD5-A482-C5E35BD3D455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxWeight", "source\DynamicProgramming\MaxWeight\MaxWeight\MaxWeight.csproj", "{A745821E-A4A7-4DB6-8256-8BD2FB5F7B11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{7988E8B6-E13B-44FC-BEA2-F62A59FD8795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7988E8B6-E13B-44FC-BEA2-F62A59FD8795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7988E8B6-E13B-44FC-BEA2-F62A59FD8795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06836B9-891F-4481-9AC8-A4FC2125E2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06836B9-891F-4481-9AC8-A4FC2125E2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06836B9-891F-4481-9AC8-A4FC2125E2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06836B9-891F-4481-9AC8-A4FC2125E2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8346FA9-3C81-42B8-B038-A475805D3BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8346FA9-3C81-42B8-B038-A475805D3BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8346FA9-3C81-42B8-B038-A475805D3BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8346FA9-3C81-42B8-B038-A475805D3BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A60870-7084-4DD5-A482-C5E35BD3D455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A60870-7084-4DD5-A482-C5E35BD3D455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A60870-7084-4DD5-A482-C5E35BD3D455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A60870-7084-4DD5-A482-C5E35BD3D455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A745821E-A4A7-4DB6-8256-8BD2FB5F7B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A745821E-A4A7-4DB6-8256-8BD2FB5F7B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A745821E-A4A7-4DB6-8256-8BD2FB5F7B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A745821E-A4A7-4DB6-8256-8BD2FB5F7B11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
