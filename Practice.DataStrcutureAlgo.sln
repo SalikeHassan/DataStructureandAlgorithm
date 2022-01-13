@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTree", "source\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinChange", "source\DynamicProgramming\CoinChange\CoinChange.csproj", "{D8346FA9-3C81-42B8-B038-A475805D3BE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPHouseRoberProblem", "source\DPHouseRoberProblem\DPHouseRoberProblem.csproj", "{87A60870-7084-4DD5-A482-C5E35BD3D455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DPHouseRoberProblem", "source\DPHouseRoberProblem\DPHouseRoberProblem.csproj", "{87A60870-7084-4DD5-A482-C5E35BD3D455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxWeight", "source\DynamicProgramming\MaxWeight\MaxWeight\MaxWeight.csproj", "{A745821E-A4A7-4DB6-8256-8BD2FB5F7B11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxWeight", "source\DynamicProgramming\MaxWeight\MaxWeight\MaxWeight.csproj", "{A745821E-A4A7-4DB6-8256-8BD2FB5F7B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubSetSumDP", "source\DynamicProgramming\SubSetSumDP\SubSetSumDP.csproj", "{19A345D7-FDD2-460A-B60B-482F44D0CF6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A745821E-A4A7-4DB6-8256-8BD2FB5F7B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A745821E-A4A7-4DB6-8256-8BD2FB5F7B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A745821E-A4A7-4DB6-8256-8BD2FB5F7B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A345D7-FDD2-460A-B60B-482F44D0CF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A345D7-FDD2-460A-B60B-482F44D0CF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A345D7-FDD2-460A-B60B-482F44D0CF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A345D7-FDD2-460A-B60B-482F44D0CF6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
