@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RodCuttingProblem", "source
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixChainMultiplication", "source\DynamicProgramming\MatrixChainMultiplication\MatrixChainMultiplication\MatrixChainMultiplication.csproj", "{D536FC7F-2973-40EC-B90C-6EBCB91B1E3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertDelHeap", "source\Heap\InsertDelHeap\InsertDelHeap\InsertDelHeap.csproj", "{3CF83B3C-1F6E-44D0-9E0F-92D3E3EA214F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertDelHeap", "source\Heap\InsertDelHeap\InsertDelHeap\InsertDelHeap.csproj", "{3CF83B3C-1F6E-44D0-9E0F-92D3E3EA214F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthLargestElement", "source\Heap\KthLargestElement\KthLargestElement\KthLargestElement.csproj", "{9762C25B-3807-439D-A383-2E6FEB23C027}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{3CF83B3C-1F6E-44D0-9E0F-92D3E3EA214F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CF83B3C-1F6E-44D0-9E0F-92D3E3EA214F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CF83B3C-1F6E-44D0-9E0F-92D3E3EA214F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9762C25B-3807-439D-A383-2E6FEB23C027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9762C25B-3807-439D-A383-2E6FEB23C027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9762C25B-3807-439D-A383-2E6FEB23C027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9762C25B-3807-439D-A383-2E6FEB23C027}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

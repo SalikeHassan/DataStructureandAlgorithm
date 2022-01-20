@@ -4,19 +4,23 @@ using System.Text;
 
 namespace InsertDelHeap
 {
-
-
     internal class Program
     {
         static void Main(string[] args)
         {
             var heap = new Heap(Convert.ToInt32(5));
 
-            heap.CreateMaxHeap(1);
-            heap.CreateMaxHeap(2);
-            heap.CreateMaxHeap(3);
-            heap.CreateMaxHeap(1);
+            //heap.CreateMaxHeap(1);
+            //heap.CreateMaxHeap(2);
+            //heap.CreateMaxHeap(3);
+            //heap.CreateMaxHeap(1);
+            //heap.CreateMaxHeap(110);
+
             heap.CreateMaxHeap(110);
+            heap.CreateMaxHeap(2);
+            heap.CreateMaxHeap(30);
+            heap.CreateMaxHeap(1);
+            heap.CreateMaxHeap(100);
 
             heap.PrintHeapData();
 
