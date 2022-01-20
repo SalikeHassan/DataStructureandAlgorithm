@@ -15,9 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxWeight", "source\Dynamic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubSetSumDP", "source\DynamicProgramming\SubSetSumDP\SubSetSumDP.csproj", "{19A345D7-FDD2-460A-B60B-482F44D0CF6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubSetSumProblem", "source\DynamicProgramming\PartitionSubSetSum\SubSetSumProblem\SubSetSumProblem.csproj", "{284020C1-BCE2-4297-8136-17B5FF6F90B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubSetSumProblem", "source\DynamicProgramming\PartitionSubSetSum\SubSetSumProblem\SubSetSumProblem.csproj", "{284020C1-BCE2-4297-8136-17B5FF6F90B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountSubsetEqualtoSum", "source\DynamicProgramming\CountSubsetEqualtoSum\CountSubsetEqualtoSum\CountSubsetEqualtoSum.csproj", "{D5390891-466A-46D2-9EF6-DE02C3A41D0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountSubsetEqualtoSum", "source\DynamicProgramming\CountSubsetEqualtoSum\CountSubsetEqualtoSum\CountSubsetEqualtoSum.csproj", "{D5390891-466A-46D2-9EF6-DE02C3A41D0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinChangeNoOfWays", "source\DynamicProgramming\CoinChangeNoOfWays\CoinChangeNoOfWays\CoinChangeNoOfWays.csproj", "{50B33301-0BCF-4712-ABBA-282682159752}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RodCuttingProblem", "source\DynamicProgramming\RodCuttingProblem\RodCuttingProblem\RodCuttingProblem.csproj", "{BC79024D-21F7-4AD9-B62D-3C11C390B10C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixChainMultiplication", "source\DynamicProgramming\MatrixChainMultiplication\MatrixChainMultiplication\MatrixChainMultiplication.csproj", "{D536FC7F-2973-40EC-B90C-6EBCB91B1E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertDelHeap", "source\Heap\InsertDelHeap\InsertDelHeap\InsertDelHeap.csproj", "{3CF83B3C-1F6E-44D0-9E0F-92D3E3EA214F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{D5390891-466A-46D2-9EF6-DE02C3A41D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5390891-466A-46D2-9EF6-DE02C3A41D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5390891-466A-46D2-9EF6-DE02C3A41D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B33301-0BCF-4712-ABBA-282682159752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B33301-0BCF-4712-ABBA-282682159752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B33301-0BCF-4712-ABBA-282682159752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B33301-0BCF-4712-ABBA-282682159752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC79024D-21F7-4AD9-B62D-3C11C390B10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC79024D-21F7-4AD9-B62D-3C11C390B10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC79024D-21F7-4AD9-B62D-3C11C390B10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC79024D-21F7-4AD9-B62D-3C11C390B10C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D536FC7F-2973-40EC-B90C-6EBCB91B1E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D536FC7F-2973-40EC-B90C-6EBCB91B1E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D536FC7F-2973-40EC-B90C-6EBCB91B1E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D536FC7F-2973-40EC-B90C-6EBCB91B1E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF83B3C-1F6E-44D0-9E0F-92D3E3EA214F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF83B3C-1F6E-44D0-9E0F-92D3E3EA214F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF83B3C-1F6E-44D0-9E0F-92D3E3EA214F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF83B3C-1F6E-44D0-9E0F-92D3E3EA214F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
